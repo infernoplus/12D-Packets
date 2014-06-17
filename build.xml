@@ -35,7 +35,7 @@
                         </manifest>
                         <fileset dir="built/javac/"/>
                 </jar>
-		<copy file="built/jar/12Packets.jar" todir="/home/inferno/Development/12D Server/lib"/>
-		<copy file="built/jar/12Packets.jar" todir="/home/inferno/Development/12D Client/lib"/>
+		<copy file="built/jar/12Packets.jar" todir="../12D-Server/lib"/>
+		<copy file="built/jar/12Packets.jar" todir="../12D-Client/lib"/>
         </target>
 </project>
